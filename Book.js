@@ -5,7 +5,7 @@ const Book = ({ img, title, author }) => {
     //     console.log(e);
     //     console.log(e.target);
     //   };
-    const complexExample = () => {
+    const buttonOnClick = () => {
         console.log(title + " By " + author);
     };
     return (
@@ -15,7 +15,7 @@ const Book = ({ img, title, author }) => {
                 <Title title={title} />
                 <Author author={author} />
                 <div className="sub-main">
-                    <button className="button-two" onClick={() => complexExample()}>
+                    <button className="button-two" onClick={() => buttonOnClick()}>
                         <span>Add To Cart</span>
                     </button>
                 </div>
